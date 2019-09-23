@@ -1,0 +1,14 @@
+D:\Repositories\LittleGastro\Back\Back.Application\bin\Debug\netcoreapp2.2\Back.Application.deps.json
+D:\Repositories\LittleGastro\Back\Back.Application\bin\Debug\netcoreapp2.2\Back.Application.runtimeconfig.json
+D:\Repositories\LittleGastro\Back\Back.Application\bin\Debug\netcoreapp2.2\Back.Application.runtimeconfig.dev.json
+D:\Repositories\LittleGastro\Back\Back.Application\bin\Debug\netcoreapp2.2\Back.Application.dll
+D:\Repositories\LittleGastro\Back\Back.Application\obj\Debug\netcoreapp2.2\Back.Application.csprojAssemblyReference.cache
+D:\Repositories\LittleGastro\Back\Back.Application\obj\Debug\netcoreapp2.2\Back.Application.csproj.CoreCompileInputs.cache
+D:\Repositories\LittleGastro\Back\Back.Application\obj\Debug\netcoreapp2.2\Back.Application.RazorAssemblyInfo.cache
+D:\Repositories\LittleGastro\Back\Back.Application\obj\Debug\netcoreapp2.2\Back.Application.RazorAssemblyInfo.cs
+D:\Repositories\LittleGastro\Back\Back.Application\obj\Debug\netcoreapp2.2\Back.Application.AssemblyInfoInputs.cache
+D:\Repositories\LittleGastro\Back\Back.Application\obj\Debug\netcoreapp2.2\Back.Application.AssemblyInfo.cs
+D:\Repositories\LittleGastro\Back\Back.Application\obj\Debug\netcoreapp2.2\Back.Application.RazorTargetAssemblyInfo.cache
+D:\Repositories\LittleGastro\Back\Back.Application\bin\Debug\netcoreapp2.2\Back.Application.pdb
+D:\Repositories\LittleGastro\Back\Back.Application\obj\Debug\netcoreapp2.2\Back.Application.dll
+D:\Repositories\LittleGastro\Back\Back.Application\obj\Debug\netcoreapp2.2\Back.Application.pdb
