@@ -1,0 +1,18 @@
+<div class="container">
+  <h2>Registration</h2>
+  <app-username-input></app-username-input>
+  <app-email-input></app-email-input>
+  <app-password-input></app-password-input>
+  <div class="buttons">
+    <mat-dialog-actions align="end">
+      <ng-container ngProjectAs="btn-close">
+        <button mat-button color="warn" (click)="dialog.closeAll()">
+          Close
+        </button>
+      </ng-container>
+      <button mat-button color="primary" type="submit" cdkFocusInitial>
+        Submit
+      </button>
+    </mat-dialog-actions>
+  </div>
+</div>
