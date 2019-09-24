@@ -9,9 +9,10 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatDividerModule } from "@angular/material/divider";
 import { WelcomeSignComponent } from "./welcome-sign/welcome-sign.component";
 import { HeaderComponent } from "./header/header.component";
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
-  declarations: [AppComponent, WelcomeSignComponent, HeaderComponent],
+  declarations: [AppComponent, WelcomeSignComponent, HeaderComponent, ContentComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

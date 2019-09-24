@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-left: 25%;
   margin-top: 3em;
 }
@@ -23,5 +23,5 @@
 }
 
 .btn-trans:hover {
-  color: rgb(146, 141, 141);
+  color: rgb(179, 174, 174);
 }
