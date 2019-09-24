@@ -3,13 +3,17 @@
   flex-direction: column;
   color: white;
   background-color: rgb(39, 38, 38);
-  max-width: 30%;
-  min-width: 20%;
+}
+
+:host {
+  display: block;
+  width: 25%;
 }
 
 @media (min-width: 720px) {
   .welcome-sign {
-    margin-left: 10%;
+    margin-left: 30%;
+    margin-right: 0;
   }
 }
 
@@ -20,7 +24,6 @@
 }
 
 .description {
-  font-family: sans-serif;
   padding: 20px;
 }
 
