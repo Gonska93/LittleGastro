@@ -1,18 +1,22 @@
 .welcome-sign {
   display: flex;
   flex-direction: column;
+  position: absolute;
   color: white;
   background-color: rgb(39, 38, 38);
+  max-width: 20%;
+  top: 0;
+  left: 0;
 }
 
 :host {
   display: block;
-  width: 25%;
+  width: 30%;
 }
 
 @media (min-width: 720px) {
   .welcome-sign {
-    margin-left: 30%;
+    margin-left: 8%;
     margin-right: 0;
   }
 }
