@@ -477,4 +477,8 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
+# Build project folders
+obj
+bin
+
 # End of https://www.gitignore.io/api/aspnetcore,visualstudio
