@@ -52,13 +52,16 @@ namespace Back
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
+            // Automatically perform database migration
+            services.BuildServiceProvider().GetService<ApplicationDbContext>().Database.Migrate();
+
             // Register dependency injection
             services.AddTransient<IProductRepository, ProductRepository>();
 
             // Register swagger service
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "Shelter API", Version = "v1" });
+                c.SwaggerDoc("v1", new Info { Title = "LittleGastro API", Version = "v1" });
 
                 var security = new Dictionary<string, IEnumerable<string>>
                 {
@@ -102,7 +105,7 @@ namespace Back
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Shelter Api V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "LittleGastro Api V1");
             });
         }
     }
