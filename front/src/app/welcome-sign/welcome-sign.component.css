@@ -1,0 +1,36 @@
+.welcome-sign {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: rgb(39, 38, 38);
+  max-width: 30%;
+  min-width: 20%;
+}
+
+@media (min-width: 720px) {
+  .welcome-sign {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 719px) {
+  .welcome-sign {
+    margin-left: 0px;
+  }
+}
+
+.description {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.detail {
+  font-size: 14px;
+  text-align: center;
+  line-height: 160%;
+  text-justify: inter-character;
+}
+.desc-header {
+  display: inline-flex;
+  font-size: 20px;
+}
