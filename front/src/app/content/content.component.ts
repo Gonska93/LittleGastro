@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostBinding, Input } from "@angular/core";
 
 @Component({
-  selector: 'app-content',
-  templateUrl: './content.component.html',
-  styleUrls: ['./content.component.css']
+  selector: "app-content",
+  templateUrl: "./content.component.html",
+  styleUrls: ["./content.component.css"]
 })
-export class ContentComponent implements OnInit {
+export class ContentComponent {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  @HostBinding("class.is-open")
+  @Input()
+  isOpen = false;
 }

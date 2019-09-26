@@ -1,5 +1,9 @@
-.content {
-  display: flex;
+:host {
+  display: none;
+}
+
+:host.is-open {
+  display: block;
   margin: 2% 20% 1% 40%;
   color: white;
   background-color: rgb(39, 38, 38);

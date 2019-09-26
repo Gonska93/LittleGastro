@@ -1,6 +1,9 @@
 <div class="header">
   <button class="btn-trans" routerLink="/">HOME</button>
-  <button class="btn-trans" (click)="onClick()">MENU</button>
+  <button class="btn-trans" (click)="toggleContent()">MENU</button>
   <button class="btn-trans" (click)="register()">REGISTER</button>
   <button class="btn-trans">LOGIN</button>
+</div>
+<div class="menu">
+  <app-content [isOpen]="contentIsOpened"></app-content>
 </div>

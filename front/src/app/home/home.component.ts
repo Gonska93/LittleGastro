@@ -4,7 +4,6 @@ import { Component, OnInit } from "@angular/core";
   selector: "app-home",
   template: `
     <app-header></app-header>
-    <app-content></app-content>
     <app-welcome-sign></app-welcome-sign>
   `,
   styleUrls: ["./home.component.css"]

@@ -10,14 +10,17 @@ import { RegisterModalComponent } from "../register-modal/register-modal.compone
 export class HeaderComponent implements OnInit {
   constructor(public dialog: MatDialog) {}
 
-  ngOnInit() {}
+  contentIsOpened = false;
 
-  onClick() {
-    alert("WOW");
+  ngOnInit() {
+    this.contentIsOpened = true;
+  }
+
+  toggleContent(shouldOpen: boolean) {
+    this.contentIsOpened = !this.contentIsOpened;
   }
 
   register() {
-    console.log("sdssdsad");
     this.dialog.open(RegisterModalComponent, {
       height: "400px",
       width: "400px"
